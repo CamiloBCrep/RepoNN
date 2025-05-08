@@ -22,7 +22,7 @@ my_neural_network/
   - Capa de dropout
   - Capa de pooling (opcional, útil para imágenes)
   - Capa de flatten
-  - Capas convolucionales (opcional)
+  - Capas convolucionales (no funcional)
 - Funciones de pérdida:
   - MSE (error cuadrático medio)
   - BCE (binary cross-entropy)
