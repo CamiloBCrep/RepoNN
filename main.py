@@ -14,8 +14,8 @@ model = Network()
 lambda_l1 = 0.0015
 
 # Añadir capas al modelo
-model.add(PoolingLayer(pool_size=2, stride=2, mode='max'))
-model.add(FlattenLayer())
+#model.add(PoolingLayer(pool_size=2, stride=2, mode='max'))
+#model.add(FlattenLayer())
 model.add(FCLayer(196, 256, lambda_l1=lambda_l1))
 model.add(ActivationLayer(relu, relu_prime))
 model.add(DropoutLayer(0.2))

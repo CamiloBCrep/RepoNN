@@ -39,6 +39,7 @@ python main.py
 Dependencia necesarias
 ```bash
 pip install numpy scikit-learn keras
+pip install tensorflow
 ```
 ## Uso con MNIST
 El archivo `data.py` puede cargar y procesar imágenes de dígitos MNIST. El modelo incluirá capas de pooling, flatten, etc.
